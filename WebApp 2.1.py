@@ -110,7 +110,7 @@ def generate_dashboard(data):
 # Main function for the Streamlit app
 def main():
     # Add the logo using st.image()
-    st.image("Jobgenix.jpg", use_column_width=True)  # Replace "path_to_logo.jpeg" with the actual path to the image file
+    st.image("Jobgenix.jpg", use_container_width=True)  # Replace "path_to_logo.jpeg" with the actual path to the image file
     st.title("Jobgenix Analytics Dashboard")
     st.markdown("Upload your data file, explore the dataset, and create dynamic visualizations with ease.")
 
